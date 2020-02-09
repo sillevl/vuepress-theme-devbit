@@ -34,7 +34,7 @@ module.exports = (options, ctx) => {
 
   return {
     name: 'vuepress-theme-devbit',
-    // extend: '@vuepress/theme-default',
+    extend: '@vuepress/theme-default',
     plugins: [
       ['vuepress-plugin-zooming'],
       [
